@@ -101,13 +101,55 @@
 .pass-point strong { font-size: 28px; letter-spacing: -0.03em; }
 .pass-point span { font-weight: 700; color: var(--lagoon-dark); font-size: 14px; margin-top: 2px; }
 .pass-point small { color: var(--muted); font-size: 12px; }
-.pass-line { display: grid; justify-items: center; gap: 4px; color: var(--muted); font-size: 12px; }
-.pass-duration { font-weight: 700; color: var(--ink-2); font-size: 13px; }
-.pass-track {
-  width: 100%; height: 2px; background: repeating-linear-gradient(90deg, var(--line-strong) 0 6px, transparent 6px 11px);
-  position: relative; display: grid; place-items: center;
+.pass-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-width: 130px;
 }
-.pass-track svg { background: #fff; padding: 0 6px; width: 28px; color: var(--lagoon); transform: rotate(45deg); }
+
+.pass-duration {
+  position: static;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.pass-track {
+  position: relative;
+  width: 100%;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pass-track::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  border-top: 2px dashed #cbd5e1;
+}
+
+.pass-track svg {
+  position: relative;
+  z-index: 1;
+  box-sizing: content-box;
+  background: #fff;
+  padding: 3px 8px;
+  color: #008b96;
+}
+
+.pass-direct {
+  position: static;
+  display: block;
+  text-align: center;
+  line-height: 1.5;
+  white-space: nowrap;
+}
 .pass-stub {
   border-left: 2px dashed var(--line); padding: 18px 20px; display: flex; flex-direction: column; justify-content: center;
   align-items: flex-start; gap: 2px; background: linear-gradient(180deg, #fbfdfd, #fff);

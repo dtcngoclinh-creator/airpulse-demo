@@ -57,13 +57,17 @@ export default function FlightCard({ flight: f, tags = [], median, showRoute = f
             <span>{f.origin}</span>
             <small>{airportOf(f.origin)}</small>
           </div>
-          <div className="pass-line" aria-label={`Thời gian bay ${formatDurationShort(f.durationMin)}`}>
-            <span className="pass-duration">{formatDurationShort(f.durationMin)}</span>
-            <span className="pass-track">
-              <Plane size={15} aria-hidden="true" />
-            </span>
-            <span className="pass-direct">1 chặng bay</span>
-          </div>
+         <div className="pass-line" aria-label={`Thời gian bay ${formatDurationShort(f.durationMin)}`}>
+  <span className="pass-duration">
+    {formatDurationShort(f.durationMin)}
+  </span>
+
+  <div className="pass-track">
+    <Plane size={17} aria-hidden="true" />
+  </div>
+
+  <span className="pass-direct">Bay thẳng</span>
+</div>
           <div className="pass-point end">
             <strong>{f.arrTime}</strong>
             <span>{f.destination}</span>

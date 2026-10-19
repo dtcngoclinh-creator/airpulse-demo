@@ -1,11 +1,11 @@
 import { IMAGES } from './images.js';
 
 export const CATEGORIES = [
-  { key: 'sea', label: 'Biển xanh', emoji: '🌊' },
-  { key: 'nature', label: 'Núi rừng & chữa lành', emoji: '🌿' },
-  { key: 'food', label: 'Ăn ngon', emoji: '🍜' },
-  { key: 'culture', label: 'Văn hóa & di sản', emoji: '🏮' },
-  { key: 'resort', label: 'Nghỉ dưỡng', emoji: '🌴' },
+  { key: 'sea', label: 'Biển & đảo', emoji: '' },
+  { key: 'nature', label: 'Thiên nhiên', emoji: '' },
+  { key: 'food', label: 'Ẩm thực', emoji: '' },
+  { key: 'culture', label: 'Văn hóa', emoji: '' },
+  { key: 'resort', label: 'Nghỉ dưỡng', emoji: '' },
 ];
 
 // Nội dung cảm hứng du lịch (không phải dữ liệu chuyến bay).
