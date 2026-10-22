@@ -1,0 +1,548 @@
+[
+  {
+    "model": "Logistic Regression",
+    "W": 1,
+    "policy": "risk_gated_model",
+    "threshold": 0.5,
+    "common_validation_n": 32866,
+    "common_test_n": 31406,
+    "accuracy": 0.8547092912182386,
+    "balanced_accuracy": 0.7226967038612193,
+    "f1_wait": 0.06284658040665435,
+    "roc_auc": 0.7500574836131569,
+    "pred_wait_pct": 14.675539705788704,
+    "true_wait_pct": 0.8278672865057632,
+    "confusion_matrix": [
+      [
+        26690,
+        4456
+      ],
+      [
+        107,
+        153
+      ]
+    ],
+    "passengers": 31406,
+    "always_buy_mean": 210.48340731070496,
+    "always_wait_mean": 210.5836645863847,
+    "airpulse_mean": 210.47745112398903,
+    "oracle_mean": 210.2517283321658,
+    "savings_total_usd": 187.05999999999995,
+    "savings_per_passenger_usd": 0.005956186715914155,
+    "oracle_possible_savings_total_usd": 7276.109999999999,
+    "oracle_capture_pct": 2.5708792198028885,
+    "harmed_pct": 0.5412978411768452,
+    "avg_harm_all_usd": 0.10011176208367828,
+    "avg_harm_if_harmed_usd": 18.494764705882357,
+    "max_harm_usd": 170.0,
+    "wait_at_start_pct": 14.675539705788704,
+    "average_purchase_day": 0.14675539705788704
+  },
+  {
+    "model": "Logistic Regression",
+    "W": 2,
+    "policy": "risk_gated_model",
+    "threshold": 0.5,
+    "common_validation_n": 32866,
+    "common_test_n": 31406,
+    "accuracy": 0.8690696045341655,
+    "balanced_accuracy": 0.658997457492452,
+    "f1_wait": 0.08050089445438283,
+    "roc_auc": 0.6899586445256635,
+    "pred_wait_pct": 12.946570718970898,
+    "true_wait_pct": 1.2927466089282302,
+    "confusion_matrix": [
+      [
+        27114,
+        3886
+      ],
+      [
+        226,
+        180
+      ]
+    ],
+    "passengers": 31406,
+    "always_buy_mean": 210.48340731070496,
+    "always_wait_mean": 210.67294052091952,
+    "airpulse_mean": 210.46160447048334,
+    "oracle_mean": 210.09882442845313,
+    "savings_total_usd": 684.7400000000001,
+    "savings_per_passenger_usd": 0.021802840221613707,
+    "oracle_possible_savings_total_usd": 12078.210000000001,
+    "oracle_capture_pct": 5.669217541340978,
+    "harmed_pct": 0.4712475323186653,
+    "avg_harm_all_usd": 0.09460612621792017,
+    "avg_harm_if_harmed_usd": 20.075675675675676,
+    "max_harm_usd": 170.0,
+    "wait_at_start_pct": 12.946570718970898,
+    "average_purchase_day": 0.14777431064127874
+  },
+  {
+    "model": "Logistic Regression",
+    "W": 3,
+    "policy": "risk_gated_model",
+    "threshold": 0.5,
+    "common_validation_n": 32866,
+    "common_test_n": 31406,
+    "accuracy": 0.8802776539514743,
+    "balanced_accuracy": 0.627454392250218,
+    "f1_wait": 0.09658817876021143,
+    "roc_auc": 0.656416727555566,
+    "pred_wait_pct": 11.500987072533912,
+    "true_wait_pct": 1.751257721454499,
+    "confusion_matrix": [
+      [
+        27445,
+        3411
+      ],
+      [
+        349,
+        201
+      ]
+    ],
+    "passengers": 31406,
+    "always_buy_mean": 210.48340731070496,
+    "always_wait_mean": 210.74329013564284,
+    "airpulse_mean": 210.46844551996435,
+    "oracle_mean": 209.96330064318917,
+    "savings_total_usd": 469.89000000000016,
+    "savings_per_passenger_usd": 0.014961790740622816,
+    "oracle_possible_savings_total_usd": 16334.469999999998,
+    "oracle_capture_pct": 2.87667735775939,
+    "harmed_pct": 0.3757243838756925,
+    "avg_harm_all_usd": 0.09463319110997899,
+    "avg_harm_if_harmed_usd": 25.18686440677967,
+    "max_harm_usd": 170.0,
+    "wait_at_start_pct": 11.500987072533912,
+    "average_purchase_day": 0.15360122269630008
+  },
+  {
+    "model": "Logistic Regression",
+    "W": 4,
+    "policy": "risk_gated_model",
+    "threshold": 0.5,
+    "common_validation_n": 32866,
+    "common_test_n": 31406,
+    "accuracy": 0.867159141565306,
+    "balanced_accuracy": 0.5981034115301164,
+    "f1_wait": 0.09814094249891915,
+    "roc_auc": 0.6227752774986131,
+    "pred_wait_pct": 12.443482137171241,
+    "true_wait_pct": 2.2861873527351464,
+    "confusion_matrix": [
+      [
+        27007,
+        3681
+      ],
+      [
+        491,
+        227
+      ]
+    ],
+    "passengers": 31406,
+    "always_buy_mean": 210.48340731070496,
+    "always_wait_mean": 210.8636547156594,
+    "airpulse_mean": 210.49120995988025,
+    "oracle_mean": 209.81741514360309,
+    "savings_total_usd": -245.04999999999995,
+    "savings_per_passenger_usd": -0.007802649175316817,
+    "oracle_possible_savings_total_usd": 20916.149999999998,
+    "oracle_capture_pct": -1.1715827243541472,
+    "harmed_pct": 0.3852766987199898,
+    "avg_harm_all_usd": 0.1139260014010062,
+    "avg_harm_if_harmed_usd": 29.569917355371903,
+    "max_harm_usd": 170.0,
+    "wait_at_start_pct": 12.443482137171241,
+    "average_purchase_day": 0.19152391262816024
+  },
+  {
+    "model": "Logistic Regression",
+    "W": 5,
+    "policy": "risk_gated_model",
+    "threshold": 0.6,
+    "common_validation_n": 32866,
+    "common_test_n": 31406,
+    "accuracy": 0.9668534674902884,
+    "balanced_accuracy": 0.5887625980131792,
+    "f1_wait": 0.23847841989758595,
+    "roc_auc": 0.5954051850578559,
+    "pred_wait_pct": 1.6016047888938418,
+    "true_wait_pct": 2.751066675157613,
+    "confusion_matrix": [
+      [
+        30202,
+        340
+      ],
+      [
+        701,
+        163
+      ]
+    ],
+    "passengers": 31406,
+    "always_buy_mean": 210.48340731070496,
+    "always_wait_mean": 210.93416958542952,
+    "airpulse_mean": 210.464783799274,
+    "oracle_mean": 209.6757345730115,
+    "savings_total_usd": 584.8900000000001,
+    "savings_per_passenger_usd": 0.018623511430936768,
+    "oracle_possible_savings_total_usd": 25365.769999999997,
+    "oracle_capture_pct": 2.305823950938608,
+    "harmed_pct": 0.13054830287206268,
+    "avg_harm_all_usd": 0.04253932369610903,
+    "avg_harm_if_harmed_usd": 32.58512195121951,
+    "max_harm_usd": 119.99000000000001,
+    "wait_at_start_pct": 1.6016047888938418,
+    "average_purchase_day": 0.02993058651213144
+  },
+  {
+    "model": "Logistic Regression",
+    "W": 6,
+    "policy": "risk_gated_model",
+    "threshold": 0.6,
+    "common_validation_n": 32866,
+    "common_test_n": 31406,
+    "accuracy": 0.9618862637712539,
+    "balanced_accuracy": 0.5749673853188243,
+    "f1_wait": 0.21301775147928995,
+    "roc_auc": 0.580113569072879,
+    "pred_wait_pct": 1.6525504680634275,
+    "true_wait_pct": 3.1904731579952874,
+    "confusion_matrix": [
+      [
+        30047,
+        357
+      ],
+      [
+        840,
+        162
+      ]
+    ],
+    "passengers": 31406,
+    "always_buy_mean": 210.48340731070496,
+    "always_wait_mean": 211.0532267719544,
+    "airpulse_mean": 210.46987836719094,
+    "oracle_mean": 209.54548621282555,
+    "savings_total_usd": 424.8900000000001,
+    "savings_per_passenger_usd": 0.013528943513978224,
+    "oracle_possible_savings_total_usd": 29456.35,
+    "oracle_capture_pct": 1.442439406104287,
+    "harmed_pct": 0.13373240782016174,
+    "avg_harm_all_usd": 0.045405018149398214,
+    "avg_harm_if_harmed_usd": 33.95214285714286,
+    "max_harm_usd": 130.0,
+    "wait_at_start_pct": 1.6525504680634275,
+    "average_purchase_day": 0.030503725402789277
+  },
+  {
+    "model": "Logistic Regression",
+    "W": 7,
+    "policy": "risk_gated_model",
+    "threshold": 0.6,
+    "common_validation_n": 32866,
+    "common_test_n": 31406,
+    "accuracy": 0.9569190600522193,
+    "balanced_accuracy": 0.5637054430393709,
+    "f1_wait": 0.1951219512195122,
+    "roc_auc": 0.5646159647837582,
+    "pred_wait_pct": 1.5793160542571485,
+    "true_wait_pct": 3.7731643634974206,
+    "confusion_matrix": [
+      [
+        29889,
+        332
+      ],
+      [
+        1021,
+        164
+      ]
+    ],
+    "passengers": 31406,
+    "always_buy_mean": 210.48340731070496,
+    "always_wait_mean": 211.18629338342987,
+    "airpulse_mean": 210.4685732025727,
+    "oracle_mean": 209.3953792268993,
+    "savings_total_usd": 465.8800000000001,
+    "savings_per_passenger_usd": 0.014834108132204041,
+    "oracle_possible_savings_total_usd": 34170.60999999999,
+    "oracle_capture_pct": 1.3633938639081955,
+    "harmed_pct": 0.12418009297586448,
+    "avg_harm_all_usd": 0.04024676813347769,
+    "avg_harm_if_harmed_usd": 32.410000000000004,
+    "max_harm_usd": 119.99000000000001,
+    "wait_at_start_pct": 1.5793160542571485,
+    "average_purchase_day": 0.029835063363688467
+  },
+  {
+    "model": "XGBoost",
+    "W": 1,
+    "policy": "risk_gated_model",
+    "threshold": 0.2,
+    "common_validation_n": 32866,
+    "common_test_n": 31406,
+    "accuracy": 0.9794306820352798,
+    "balanced_accuracy": 0.6921338213574777,
+    "f1_wait": 0.24355971896955503,
+    "roc_auc": 0.7621644834007576,
+    "pred_wait_pct": 1.891358339170859,
+    "true_wait_pct": 0.8278672865057632,
+    "confusion_matrix": [
+      [
+        30656,
+        490
+      ],
+      [
+        156,
+        104
+      ]
+    ],
+    "passengers": 31406,
+    "always_buy_mean": 210.48340731070496,
+    "always_wait_mean": 210.5836645863847,
+    "airpulse_mean": 210.45529452970766,
+    "oracle_mean": 210.2517283321658,
+    "savings_total_usd": 882.9100000000002,
+    "savings_per_passenger_usd": 0.028112780997261676,
+    "oracle_possible_savings_total_usd": 7276.109999999999,
+    "oracle_capture_pct": 12.134368501850581,
+    "harmed_pct": 0.10189135833917086,
+    "avg_harm_all_usd": 0.028880150289753558,
+    "avg_harm_if_harmed_usd": 28.344062500000003,
+    "max_harm_usd": 69.99000000000007,
+    "wait_at_start_pct": 1.891358339170859,
+    "average_purchase_day": 0.01891358339170859
+  },
+  {
+    "model": "XGBoost",
+    "W": 2,
+    "policy": "risk_gated_model",
+    "threshold": 0.3,
+    "common_validation_n": 32866,
+    "common_test_n": 31406,
+    "accuracy": 0.9780296758581163,
+    "balanced_accuracy": 0.644913316383283,
+    "f1_wait": 0.26282051282051283,
+    "roc_auc": 0.6912185364690926,
+    "pred_wait_pct": 1.6875756224925174,
+    "true_wait_pct": 1.2927466089282302,
+    "confusion_matrix": [
+      [
+        30593,
+        407
+      ],
+      [
+        283,
+        123
+      ]
+    ],
+    "passengers": 31406,
+    "always_buy_mean": 210.48340731070496,
+    "always_wait_mean": 210.67294052091952,
+    "airpulse_mean": 210.44077437432335,
+    "oracle_mean": 210.09882442845313,
+    "savings_total_usd": 1338.9300000000003,
+    "savings_per_passenger_usd": 0.04263293638158314,
+    "oracle_possible_savings_total_usd": 12078.210000000001,
+    "oracle_capture_pct": 11.085500252106895,
+    "harmed_pct": 0.0891549385467745,
+    "avg_harm_all_usd": 0.024677450168757564,
+    "avg_harm_if_harmed_usd": 27.67928571428572,
+    "max_harm_usd": 60.0,
+    "wait_at_start_pct": 1.6875756224925174,
+    "average_purchase_day": 0.02279819142838948
+  },
+  {
+    "model": "XGBoost",
+    "W": 3,
+    "policy": "risk_gated_model",
+    "threshold": 0.3,
+    "common_validation_n": 32866,
+    "common_test_n": 31406,
+    "accuracy": 0.9700694134878686,
+    "balanced_accuracy": 0.591897848068447,
+    "f1_wait": 0.1896551724137931,
+    "roc_auc": 0.6469222429113537,
+    "pred_wait_pct": 1.9423040183404443,
+    "true_wait_pct": 1.751257721454499,
+    "confusion_matrix": [
+      [
+        30356,
+        500
+      ],
+      [
+        440,
+        110
+      ]
+    ],
+    "passengers": 31406,
+    "always_buy_mean": 210.48340731070496,
+    "always_wait_mean": 210.74329013564284,
+    "airpulse_mean": 210.45968668407303,
+    "oracle_mean": 209.96330064318917,
+    "savings_total_usd": 744.9700000000001,
+    "savings_per_passenger_usd": 0.02372062663185379,
+    "oracle_possible_savings_total_usd": 16334.469999999998,
+    "oracle_capture_pct": 4.560723427206394,
+    "harmed_pct": 0.12418009297586448,
+    "avg_harm_all_usd": 0.03820925937718908,
+    "avg_harm_if_harmed_usd": 30.769230769230774,
+    "max_harm_usd": 90.0,
+    "wait_at_start_pct": 1.9423040183404443,
+    "average_purchase_day": 0.03187289053047188
+  },
+  {
+    "model": "XGBoost",
+    "W": 4,
+    "policy": "risk_gated_model",
+    "threshold": 0.3,
+    "common_validation_n": 32866,
+    "common_test_n": 31406,
+    "accuracy": 0.958288225179902,
+    "balanced_accuracy": 0.5835262928392795,
+    "f1_wait": 0.17297979797979798,
+    "roc_auc": 0.6088987810828945,
+    "pred_wait_pct": 2.7574348850538115,
+    "true_wait_pct": 2.2861873527351464,
+    "confusion_matrix": [
+      [
+        29959,
+        729
+      ],
+      [
+        581,
+        137
+      ]
+    ],
+    "passengers": 31406,
+    "always_buy_mean": 210.48340731070496,
+    "always_wait_mean": 210.8636547156594,
+    "airpulse_mean": 210.4798735910335,
+    "oracle_mean": 209.81741514360309,
+    "savings_total_usd": 110.98000000000002,
+    "savings_per_passenger_usd": 0.00353371967140037,
+    "oracle_possible_savings_total_usd": 20916.149999999998,
+    "oracle_capture_pct": 0.530594779632007,
+    "harmed_pct": 0.17512577214544991,
+    "avg_harm_all_usd": 0.05880914474941096,
+    "avg_harm_if_harmed_usd": 33.58109090909091,
+    "max_harm_usd": 119.99000000000001,
+    "wait_at_start_pct": 2.7574348850538115,
+    "average_purchase_day": 0.04559638285677896
+  },
+  {
+    "model": "XGBoost",
+    "W": 5,
+    "policy": "risk_gated_model",
+    "threshold": 0.6,
+    "common_validation_n": 32866,
+    "common_test_n": 31406,
+    "accuracy": 0.9704196650321595,
+    "balanced_accuracy": 0.5287395302037025,
+    "f1_wait": 0.10241545893719807,
+    "roc_auc": 0.5536912246827078,
+    "pred_wait_pct": 0.5444819461249443,
+    "true_wait_pct": 2.751066675157613,
+    "confusion_matrix": [
+      [
+        30424,
+        118
+      ],
+      [
+        811,
+        53
+      ]
+    ],
+    "passengers": 31406,
+    "always_buy_mean": 210.48340731070496,
+    "always_wait_mean": 210.93416958542952,
+    "airpulse_mean": 210.47656435076095,
+    "oracle_mean": 209.6757345730115,
+    "savings_total_usd": 214.90999999999997,
+    "savings_per_passenger_usd": 0.0068429599439597515,
+    "oracle_possible_savings_total_usd": 25365.769999999997,
+    "oracle_capture_pct": 0.8472441404301939,
+    "harmed_pct": 0.04457746927338725,
+    "avg_harm_all_usd": 0.014552314844297273,
+    "avg_harm_if_harmed_usd": 32.645,
+    "max_harm_usd": 69.99000000000007,
+    "wait_at_start_pct": 0.5444819461249443,
+    "average_purchase_day": 0.00678214353945106
+  },
+  {
+    "model": "XGBoost",
+    "W": 6,
+    "policy": "risk_gated_model",
+    "threshold": 0.7,
+    "common_validation_n": 32866,
+    "common_test_n": 31406,
+    "accuracy": 0.9666624211934025,
+    "balanced_accuracy": 0.5108413287882858,
+    "f1_wait": 0.043835616438356165,
+    "roc_auc": 0.5635627508304007,
+    "pred_wait_pct": 0.29612176017321534,
+    "true_wait_pct": 3.1904731579952874,
+    "confusion_matrix": [
+      [
+        30335,
+        69
+      ],
+      [
+        978,
+        24
+      ]
+    ],
+    "passengers": 31406,
+    "always_buy_mean": 210.48340731070496,
+    "always_wait_mean": 211.0532267719544,
+    "airpulse_mean": 210.48213430554668,
+    "oracle_mean": 209.54548621282555,
+    "savings_total_usd": 39.97999999999999,
+    "savings_per_passenger_usd": 0.0012730051582500155,
+    "oracle_possible_savings_total_usd": 29456.35,
+    "oracle_capture_pct": 0.13572625257372348,
+    "harmed_pct": 0.012736419792396357,
+    "avg_harm_all_usd": 0.0038215627587085276,
+    "avg_harm_if_harmed_usd": 30.005000000000003,
+    "max_harm_usd": 60.00999999999999,
+    "wait_at_start_pct": 0.29612176017321534,
+    "average_purchase_day": 0.0037890848882379162
+  },
+  {
+    "model": "XGBoost",
+    "W": 7,
+    "policy": "risk_gated_model",
+    "threshold": 0.7,
+    "common_validation_n": 32866,
+    "common_test_n": 31406,
+    "accuracy": 0.9611857606826721,
+    "balanced_accuracy": 0.5095723807892268,
+    "f1_wait": 0.039401103230890466,
+    "roc_auc": 0.5200963590718556,
+    "pred_wait_pct": 0.2674648156403235,
+    "true_wait_pct": 3.7731643634974206,
+    "confusion_matrix": [
+      [
+        30162,
+        59
+      ],
+      [
+        1160,
+        25
+      ]
+    ],
+    "passengers": 31406,
+    "always_buy_mean": 210.48340731070496,
+    "always_wait_mean": 211.18629338342987,
+    "airpulse_mean": 210.49025536521683,
+    "oracle_mean": 209.3953792268993,
+    "savings_total_usd": -215.07000000000014,
+    "savings_per_passenger_usd": -0.006848054511876716,
+    "oracle_possible_savings_total_usd": 34170.60999999999,
+    "oracle_capture_pct": -0.6294005286999564,
+    "harmed_pct": 0.041393364325288166,
+    "avg_harm_all_usd": 0.01337483283449023,
+    "avg_harm_if_harmed_usd": 32.31153846153847,
+    "max_harm_usd": 69.99000000000007,
+    "wait_at_start_pct": 0.2674648156403235,
+    "average_purchase_day": 0.003661720690313953
+  }
+]

@@ -1,13 +1,14 @@
 {
   "name": "airpulse",
   "private": true,
-  "version": "4.0.0",
+  "version": "4.1.0",
   "type": "module",
   "description": "AirPulse – hệ thống hỗ trợ quyết định mua vé máy bay (AISC 2026)",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "research:data": "python3 scripts/build_research_data.py --v2 research/V2 --v3 research/V3"
   },
   "dependencies": {
     "lucide-react": "^0.460.0",

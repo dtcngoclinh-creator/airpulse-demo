@@ -16,7 +16,7 @@ import useDocumentTitle from '../hooks/useDocumentTitle.js';
 const JOURNEY = [
   { Icon: Compass, title: 'Tìm cảm hứng', text: 'Lướt điểm đến theo sở thích, xem nên đi mùa nào và đi đâu.', to: '/explore', cta: 'Khám phá' },
   { Icon: Scale, title: 'So sánh chuyến bay', text: 'Lọc theo hãng, giờ bay, giá và đặt tối đa ba chuyến cạnh nhau.', to: '/flights', cta: 'Tìm chuyến' },
-  { Icon: Gauge, title: 'Hiểu mức giá', text: 'Xem giá chuyến này đứng ở đâu so với cả tuyến, và kết quả mô hình khi sẵn sàng.', to: '/about#cach-hoat-dong', cta: 'Cách hoạt động' },
+  { Icon: Gauge, title: 'Hiểu mức giá', text: 'Xem giá chuyến này đứng ở đâu so với cả tuyến, và kết quả BUY/WAIT của nghiên cứu cho từng chuyến.', to: '/research', cta: 'Xem nghiên cứu' },
   { Icon: ExternalLink, title: 'Đặt tại hãng', text: 'Mở website chính thức của hãng để kiểm tra giá hiện tại và đặt vé.', to: '/about#gioi-han', cta: 'Vì sao' },
 ];
 
@@ -137,8 +137,8 @@ export default function Home() {
                 chuyến rẻ nhất và đắt nhất.
               </p>
               <p className="spotlight-note">
-                Mỗi chấm là một chuyến bay thật trong dữ liệu. Fair Price, Price Trend và khuyến nghị BUY/WAIT sẽ xuất hiện ở trang chi tiết khi
-                mô hình sẵn sàng.
+                Mỗi chấm là một chuyến bay thật trong dữ liệu. Trang chi tiết có chuỗi giá theo thời gian và kết quả BUY/WAIT của nghiên cứu V3 cho
+                đúng chuyến đó.
               </p>
               <Link className="btn btn-sun" to={`/flights/${encodeURIComponent(cheapestSpot.id)}`}>
                 Xem chuyến rẻ nhất tuyến này

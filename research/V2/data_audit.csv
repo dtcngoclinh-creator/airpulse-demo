@@ -1,0 +1,10 @@
+,value
+rows,2274789.0
+series,607596.0
+mean_observations_per_series,3.7439170106452315
+median_observations_per_series,2.0
+pct_series_constant_price,79.52060250561229
+pct_rows_have_7_consecutive_future_days,6.322740262943069
+pct_missing_price_change_3d,77.0377824053132
+pct_missing_volatility_3d,77.0377824053132
+route_count,5.0

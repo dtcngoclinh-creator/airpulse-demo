@@ -25,6 +25,8 @@ export default function Footer() {
           <Link to="/about#du-lieu">Nguồn dữ liệu</Link>
           <Link to="/about#cach-hoat-dong">Cách AirPulse hoạt động</Link>
           <Link to="/about#gioi-han">Giới hạn nghiên cứu</Link>
+          <Link to="/research/us">US Benchmark (V2)</Link>
+          <Link to="/research/vietnam">Vietnam Pilot (V3)</Link>
         </div>
         <div>
           <h4>Đặt vé tại hãng</h4>

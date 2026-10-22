@@ -417,3 +417,42 @@ a.dest-fare:hover { color: var(--lagoon-dark); text-decoration: underline; }
   .decision { grid-template-columns: 1fr; }
   .hour-bars { height: 110px; gap: 2px; }
 }
+.history-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+/* FIX: Price History */
+.history-chart {
+  width: 100%;
+  min-width: 0;
+}
+
+.history-scroll {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: auto;
+}
+
+.history-scroll svg {
+  display: block;
+  width: 1000px !important;
+  min-width: 1000px;
+  max-width: none !important;
+  height: auto;
+}
+
+.history-scroll::-webkit-scrollbar {
+  height: 10px;
+}
+
+.history-scroll::-webkit-scrollbar-thumb {
+  background: #94a9ba;
+  border-radius: 10px;
+}

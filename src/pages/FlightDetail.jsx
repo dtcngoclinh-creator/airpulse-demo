@@ -18,7 +18,7 @@ import { primaryDestinationForAirport } from '../data/destinations.js';
 import { IMAGES } from '../data/images.js';
 import { formatDateVN, formatDuration, formatObservedAt, formatVND, pctDiff } from '../utils/format.js';
 import useDocumentTitle from '../hooks/useDocumentTitle.js';
-
+import FlightResearchPanel from '../components/research/FlightResearchPanel.jsx';
 function WatchBox({ flight }) {
   const { isWatched, watchFlight, unwatch, watch } = useUserData();
   const notify = useToast();
@@ -83,7 +83,6 @@ export default function FlightDetail() {
   useDocumentTitle(flight ? `${flight.flight_number} ${flight.origin} – ${flight.destination}` : 'Chi tiết chuyến bay');
 
   const ctx = useMemo(() => (flight ? priceContext(flight, flights) : null), [flight, flights]);
-
   if (status === 'loading') {
     return (
       <div className="container subpage">
@@ -242,6 +241,8 @@ export default function FlightDetail() {
             <h2>Lịch sử giá</h2>
             <PriceHistory flight={flight} metadata={metadata} />
           </section>
+
+          <FlightResearchPanel flight={flight} />
 
           <InsightPanel flight={flight} />
 

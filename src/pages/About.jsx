@@ -19,8 +19,9 @@ const STEPS = [
 const LIMITS = [
   'Giá hiển thị là giá đã ghi nhận trong quá khứ, không phải giá bán thời gian thực và có thể đã thay đổi.',
   'Dữ liệu chỉ bao phủ một số tuyến nội địa, một số ngày bay và vé một chiều.',
-  'Mỗi chuyến hiện chỉ có lần ghi nhận giá gần nhất, nên chưa vẽ được lịch sử giá theo từng chuyến.',
-  'Fair Price, Price Trend và BUY/WAIT chưa được kết nối. Khi kết nối, kết quả vẫn chỉ mang tính tham khảo và có độ bất định.',
+  'Dữ liệu thật Việt Nam chỉ có một ngày bay (14/10/2026); kết quả mô hình chưa được kiểm chứng trên ngày bay khác.',
+  'BUY/WAIT hiển thị trên website là kết quả nghiên cứu V3 tính sẵn từ file, không phải mô hình chạy trực tiếp. Chưa có file mô hình đã huấn luyện nên không dự đoán được cho chuyến mới.',
+  'Kết quả V2 là chuẩn so sánh trên dữ liệu Mỹ, không dùng làm dự đoán cho chuyến bay Việt Nam.',
   'Liên kết “Đặt vé tại hãng” mở trang đặt vé chung của hãng, không giữ chỗ, không giữ giá và không chọn sẵn chuyến bay.',
   'Ảnh điểm đến là ảnh minh họa, có thể không chụp đúng địa danh được nhắc tới.',
   'Tài khoản là bản demo lưu trên trình duyệt, không có xác thực thật.',
@@ -142,7 +143,8 @@ export default function About() {
             </div>
           </div>
           <p className={`model-status ${MODEL_API_CONFIGURED ? 'on' : ''}`}>
-            Trạng thái hiện tại: {MODEL_API_CONFIGURED ? 'đã cấu hình API mô hình.' : 'chưa kết nối mô hình. Website hiển thị rõ trạng thái chờ và không tạo dự đoán.'}
+            Trạng thái hiện tại: {MODEL_API_CONFIGURED ? 'đã cấu hình API mô hình.' : 'chưa kết nối mô hình chạy trực tiếp. Website hiển thị kết quả nghiên cứu tính sẵn và không tự tạo dự đoán.'}{' '}
+            <Link to="/research">Xem kết quả nghiên cứu</Link>
           </p>
         </section>
 

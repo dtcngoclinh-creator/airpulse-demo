@@ -74,8 +74,8 @@ export default function InsightPanel({ flight }) {
     <section className="insight" aria-labelledby="insight-title">
       <div className="insight-head">
         <div>
-          <h2 id="insight-title">AirPulse Intelligence</h2>
-          <p>Giá hợp lý, xu hướng giá và khuyến nghị nên mua hay chờ.</p>
+          <h2 id="insight-title">AirPulse Intelligence · baseline</h2>
+          <p>Giá hợp lý và xu hướng giá từ đường cong giá thực nghiệm gắn sẵn trong dữ liệu. Đây là baseline, tách biệt với mô hình V3 ở trên.</p>
         </div>
         <span className={`status-pill status-${status}`}>
           {status === 'loading' && (

@@ -12,6 +12,9 @@ import DestinationDetail from './pages/DestinationDetail.jsx';
 import Saved from './pages/Saved.jsx';
 import Account from './pages/Account.jsx';
 import About from './pages/About.jsx';
+import Research from './pages/Research.jsx';
+import ResearchUS from './pages/ResearchUS.jsx';
+import ResearchVN from './pages/ResearchVN.jsx';
 import NotFound from './pages/NotFound.jsx';
 
 export default function App() {
@@ -31,6 +34,9 @@ export default function App() {
                 <Route path="/saved" element={<Saved />} />
                 <Route path="/account" element={<Account />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/research" element={<Research />} />
+                <Route path="/research/us" element={<ResearchUS />} />
+                <Route path="/research/vietnam" element={<ResearchVN />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </Layout>

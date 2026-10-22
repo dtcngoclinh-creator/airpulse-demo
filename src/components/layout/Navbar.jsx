@@ -8,6 +8,7 @@ export const NAV_LINKS = [
   { to: '/', label: 'Trang chủ', end: true },
   { to: '/flights', label: 'Tìm chuyến bay' },
   { to: '/explore', label: 'Khám phá' },
+  { to: '/research', label: 'Nghiên cứu' },
   { to: '/saved', label: 'Đã lưu' },
   { to: '/about', label: 'Về AirPulse' },
 ];
